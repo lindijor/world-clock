@@ -7,20 +7,37 @@
     <title>World clock</title>
   </head>
   <body>
-    <header>
-      <h1>World clock</h1>
-    </header>
-    <main></main>
-    <footer>
-      This project was coded by Lindis Jørgensen. It is
-      <a href="https://github.com/lindijor/world-clock"
-        >open sourced on Github</a
-      >
-      and
-      <a href="https://snazzy-bombolone-e5715e.netlify.app/"
-        >hosted on Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <header>
+        <h1>World clock</h1>
+      </header>
+      <main>
+        <select name="cities" id="cities">
+          <option value="">Select a city</option>
+          <option value="london">London</option>
+          <option value="berlin">Berlin</option>
+          <option value="madrid">Madrid</option>
+          <option value="paris">Paris</option>
+        </select>
+
+        <h2>Los Angeles</h2>
+        <div class="date">August 15th, 2022</div>
+        <div class="time">1:48:15 AM</div>
+        <h2>Sydney</h2>
+        <div class="date">August 15th, 2022</div>
+        <div class="time">1:48:15 AM</div>
+      </main>
+      <footer>
+        This project was coded by Lindis Jørgensen. It is
+        <a href="https://github.com/lindijor/world-clock"
+          >open sourced on Github</a
+        >
+        and
+        <a href="https://snazzy-bombolone-e5715e.netlify.app/"
+          >hosted on Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
